@@ -1,0 +1,4 @@
+indexes:
+- kind: Version
+  properties:
+  - name: version
