@@ -1,7 +1,7 @@
-# cron:
-# - description: Hit the cron endpoint for checking the osrs version
-#   url: /_cron/osrs
-#   schedule: every 10 minutes
-# - description: Hit the cron endpoint for checking the rs3 version
-#   url: /_cron/rs3
-#   schedule: every 10 minutes
+cron:
+- description: Hit the cron endpoint for checking the osrs version
+  url: /_cron/osrs
+  schedule: every 10 minutes
+- description: Hit the cron endpoint for checking the rs3 version
+  url: /_cron/rs3
+  schedule: every 10 minutes

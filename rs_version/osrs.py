@@ -7,7 +7,6 @@ import requests
 
 logger = logging.getLogger(__name__)
 
-
 HOST = 'oldschool1.runescape.com'
 PORT = '43594'
 SOCKET_PARAMS = (HOST, PORT)

@@ -6,9 +6,5 @@ deps:
 update-deps:
 	pip install -Ur requirements_dev.txt
 
-lib:
-	rm -rf lib
-	pip install -t lib -r requirements.txt
-
 run:
-	dev_appserver.py app.yaml
+	python main.py
